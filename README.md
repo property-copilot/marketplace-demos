@@ -6,6 +6,8 @@ This repository hosts multiple demo instances of the Property Copilot marketplac
 
 - **Root Landing Page**: https://property-copilot.github.io/marketplace-demos/
 - **Main Demo**: https://property-copilot.github.io/marketplace-demos/main/
+- **AEI Demo**: https://property-copilot.github.io/marketplace-demos/aei/
+- **Ascenda Demo**: https://property-copilot.github.io/marketplace-demos/ascenda/
 
 ## 📁 Repository Structure
 
