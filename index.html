@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Copilot - Demo Marketplace</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .demos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .demo-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .demo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .demo-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .demo-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .demo-card .arrow {
+            display: inline-block;
+            margin-left: 5px;
+            transition: transform 0.2s;
+        }
+
+        .demo-card:hover .arrow {
+            transform: translateX(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Property Copilot Demos</h1>
+            <p>Explore our marketplace demonstrations</p>
+        </div>
+
+        <div class="demos">
+            <a href="./main/" class="demo-card">
+                <h2>Main Demo <span class="arrow">→</span></h2>
+                <p>Experience the full Property Copilot marketplace platform</p>
+            </a>
+
+            <!-- Add more demos as needed -->
+            <!--
+            <a href="./acme/" class="demo-card">
+                <h2>ACME Demo <span class="arrow">→</span></h2>
+                <p>Custom ACME property marketplace demonstration</p>
+            </a>
+            -->
+        </div>
+    </div>
+</body>
+</html>
